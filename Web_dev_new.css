@@ -1,0 +1,369 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    width: 100%;
+
+}
+/*---------Header CSS------*/
+#header
+{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0.2),rgba(0,0,0,0.2)),url(./Images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.user-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+}
+.user-box img
+{
+    border-radius: 50%;
+    width: 270px;
+    border: 2px solid #fff;
+    height: 270px;
+}
+.user-box h1
+{
+    color: #fff;
+    font-weight: bold;
+    margin: 1px;
+}
+.user-box p
+{
+    color: #fff;
+
+}
+.scroll-btn
+{
+    bottom: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #fff;
+    padding: 10px 10px 20px;
+    border-radius: 20px;
+}
+.scroll-bar span
+{
+    border: 2px solid #fff;
+    font-size: 10px;
+    border-radius: 20px;
+}
+.scroll-bar
+{
+    animation: mover 1s infinite  alternate;
+}
+    @keyframes mover{
+    0% {transform:translateY(0);}
+    100% {transform:translateY(10px);}
+}
+/*------------About---------*/
+
+#user-info
+{
+    background-color:rgb(247, 241, 241);
+}
+.about
+{
+    padding-top: 100px;
+    margin-bottom: -130px;
+}
+
+.profile-img
+{
+    margin-left: 250px;
+    border-radius: 8px;
+    width: 230px;
+    border: 2px solid #6caed5;
+    height: 280px
+}
+
+.nav-bar
+{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+    color: #fff;  
+}
+
+.navbar
+{
+background-color: #000;
+
+}
+
+.navbar-brand img
+{
+    height: 50px;
+    width: 70px;
+}
+.fa-bars
+{
+    font-size: 35px;
+    color: #fff;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+.nav-link
+{
+    color: #fff !important;
+}
+/*-----------------Resume------------*/
+.resume
+{
+ padding-top: 10px;
+ background: #e4dbdb;
+ margin-top: -50px;
+}
+.col-md-resume
+{
+   padding-left: 200px;
+}
+.school
+{
+    word-spacing: 30px;
+}
+tab1
+{
+    padding-left: 4em;
+}
+tab2
+{   
+    padding-left: 8em;
+}
+tab3
+{
+    padding-left: 2.8em;
+}
+
+.List-style {
+    list-style-type: none;
+   
+  }
+  
+h4 
+{
+    background-color: rgb(32, 31, 31);
+    color: #fff;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 20px;
+   
+}
+ /*----------Services----------------*/
+.Services
+{
+    padding-top: 50px;
+    background-color: #d2d4d6;
+    padding-bottom: 30px;
+
+}
+.Services h5
+{
+    margin-bottom: 5px;
+    font-size: 35px;
+    
+}
+
+.fa-youtube-play
+{
+    font-size: 15px;
+    color: #777;
+}
+.fa-youtube-play:hover
+{
+    text-decoration: underline;
+}
+
+.YT
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #777;
+}
+.Services-box
+{
+    background-color: #ebe4e4;
+    padding: 10px;
+    border-radius:10px ;
+}
+.Services-box .fa
+{
+margin: 0 10px;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.Services-box span
+{
+    margin: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Services-box p
+{
+    font-size: 15px;
+    color: #777;
+}
+.Services-box:hover
+{
+    background: rgb(26, 25, 25);
+    color: #fff;
+    border-radius:10px ;
+    transition: 1s;
+    cursor: pointer;
+}
+.Services-box:hover p
+{
+    color: #fff;
+}
+/*------------Contacts---------------*/
+.Contacts
+{
+    padding-bottom: 5px;
+    background-color:#c3c5c9;
+}
+.Contacts-box
+{
+    text-align: center;
+}
+.Contacts h5
+{
+    margin-bottom: 5px;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.Contact-text2
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: #777;
+}
+.Contact-text
+{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #777;
+}
+.Contact-text:hover
+{
+    text-decoration: underline;
+    color: #777;
+}
+
+.Contacts-box span
+{
+    margin: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.footer{
+    font-size: 12px;
+    color: #777;
+    padding-top: 10px;
+}
+/*-----------button------------*/
+.button-position
+{
+  position: relative;
+  padding-left: 470px;
+  height: 40px;
+  text-align: center;
+}
+.Contacts .btn
+{
+    padding: 10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;   
+}
+.Contacts .btn:focus
+{
+    background: transparent;
+    box-shadow: none !important;
+}
+.Contacts .btn:hover
+{
+    border: 2px solid #000 !important;
+    background-color: #000;
+    transition: 0.5s;
+}
+.Contacts .btn .fa
+{
+    margin-right: 10px;
+}
+.Copyright
+{
+    text-align: center;
+    padding-top: 15px;
+}
+.contact-main
+{
+    background: linear-gradient(rgba(0,0,0.08),rgba(0,0,0,0.8)),url(./Images/Technology-Wallpaper.jpg);
+    padding-top:  20px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+/*-------------------social-icons----------------*/
+.social-icons
+{
+ top: 50%;
+ transform: translateY(-50%);
+ position: sticky;
+ z-index: 1;
+ width: 80px;
+}
+.social-icons ul
+{
+    padding: initial;
+}
+.social-icons ul li
+{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 12px;
+    padding-top: 6px;
+    margin-top: 5px;
+    color: #fff;
+    background-color: #000;
+}
+.social-icons ul li:hover
+{
+    padding-left: 30px;
+    width: 80px;
+    transition: 1s;
+}
+
+.any
+{
+ 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+}
+  
+
